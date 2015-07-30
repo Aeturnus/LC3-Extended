@@ -1,0 +1,16 @@
+//Or entry points. Take your pick
+TRAP x26: x1000	: OR
+TRAP x27: x1006	: XOR
+TRAP x28: x1016	: Logical Shift Left
+TRAP x29: x101F	: Logical Shift Right
+TRAP x2A: x104B	: Circular Shift Left
+TRAP x2B: x1063	: Circular Shift Right
+TRAP x2C: x107C	: Arithmetic Shift Right
+TRAP x2D: x1090	: Multiply
+TRAP x2E: x10B6	: Divide
+TRAP x2F: x10E3	: Power
+TRAP x30: 	: Delay
+TRAP x31: 	: Push
+TRAP x32: 	: Pop
+TRAP x33:	: LC3Draw-Render
+TRAP x34:	: LC3Draw-Clear
